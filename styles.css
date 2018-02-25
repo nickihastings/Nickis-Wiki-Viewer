@@ -1,0 +1,111 @@
+html, body{
+  height: 100%;
+}
+body{
+  font-family: 'Lato', sans-serif;
+ font-size: 1.2em;
+  font-weight: 300;
+  color: #844e38; /*brown*/
+  background-image: url("https://res.cloudinary.com/nhast25cs/image/upload/v1518726981/wikiviewer/questions.jpg");
+  background-position: center center;
+  background-repeat: repeat;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.wikiwrap{
+  position: relative;
+  margin-bottom: 6em;
+}
+#randomness{
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+#searching {
+  margin-bottom: 4em
+}
+h1{
+  font-family: 'Iceland', cursive;
+  font-size: 5em;
+  margin-bottom: 0.5em;
+}
+.big{
+  font-size: 1.7em;
+}
+.right{
+  text-align:right;
+}
+.left{
+  text-align:left;
+}
+a{
+  font-family: 'Iceland', cursive;
+}
+#randomness .btn{
+  font-size: 2em;
+  color: #fff;
+}
+#randomness .btn:hover{
+  color: #844e38;
+  background-color: #ffa1f0;
+}
+.btn-default {
+  background-color: #fd77c6; /*pink*/
+  border-color: #fd77c6;
+  color: #fff;
+  transition: background-color 0.5s ease,
+    color 0.5s ease;
+}
+.btn-default:hover{
+  color: #844e38;
+  
+}
+.btn-primary{
+  background-color: #5387e8; /*blue*/
+  border-color: #5387e8;
+  color: #FFF;
+  font-family: 'Iceland', cursive;
+  font-size: 1.75em;
+  transition: background-color 0.5s ease;
+}
+.btn-primary:hover{
+  background-color: #79adff;
+  border-color: #5387e8;
+}
+.form-control{
+  width: 190px;
+  margin-bottom: 0.5em;
+}
+
+#col1, #col2{
+  padding: 2em;
+}
+.fadebg{
+  margin: 0px 5px 10px;
+  padding: 15px 30px;
+}
+#text-display h3{
+  font-size: 2em;
+  margin-top: 30px;
+}
+#text-display p{
+  font-size: 1.3em;
+}
+#text-display a{
+  font-size: 1.5em;
+  color: #5387e8;
+  transition: color 0.5s ease;
+}
+#text-display a:hover{
+  color: #fd77c6;
+}
+footer{
+  font-family: 'Iceland', cursive;
+  font-size: 4em;
+  text-align: right;
+  width: 100%;
+  margin: auto;
+  padding: 0 50px 20px 0;
+}

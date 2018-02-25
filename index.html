@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Nicki's Wiki Viewer</title>
+        <meta name="description" content="Free Code Camp Project - Create a Wikipedia Viewer that can search for articles and display them, and show a random article.">
+        <link href='https://fonts.googleapis.com/css?family=Iceland|Lato:300,700' rel='stylesheet'>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" media="screen" href="styles.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    </head>
+    
+    <body>
+        <div class="wrap">
+          <div class="container wikiwrap">
+            
+              <div id="randomness" class="row">
+                  <div class="col-sm-8 col-sm-offset-2 text-center clearfix">
+                    <h1>Nicki's Wiki Viewer</h1>
+                    <p class="big">I want to learn, so please</p>
+                    <a href="https://en.wikipedia.org/wiki/Special:Random" class="btn btn-default btn-lg" target="_blank">Show me a random article</a>
+                  </div>
+            </div> <!-- end #randomness -->
+            
+            <div id="searching" class="row">
+              <div class="col-sm-4 col-sm-offset-2">
+                <p class="big right">I want to know about:</p>
+              </div>
+              
+                <div class="col-sm-4">
+                    <form>
+                      <div class="form-group">
+                        <input id="searchme" type="text" class="form-control input-lg" placeholder="Rockets..."/>
+                      </div>
+                   </form>
+                    <button id="find" class="btn btn-primary btn-lg">Find Everything</button>
+              </div>
+            </div> <!-- end #searching -->
+
+            <div id="text-display">
+              <div class="row">
+                <div id="col1" class="col-sm-6">
+                  <div class="fadebg">
+                  </div>
+                </div>
+
+                <div id="col2" class="col-sm-6">
+                  <div class="fadebg">
+                  </div>
+                </div>
+              </div>
+            </div> <!-- end #text-display -->
+          
+          </div> <!-- end .wikiwrap -->
+
+          <footer>What do you want to know about?</footer>
+
+        </div> <!-- end .wrap -->
+        
+        <script src="wikiviewer.js"></script>
+    </body>
+</html>
